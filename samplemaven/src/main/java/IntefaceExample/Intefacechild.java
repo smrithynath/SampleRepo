@@ -8,10 +8,15 @@ public void show()
 }
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Intefacechild obj = new Intefacechild();
+		// Interfacename objname = new classname(); // reference creation
+		Intefaceparent obj1 = new Intefacechild();
+		obj1.display();
+		obj1.print();
+		
+		/* Intefacechild obj = new Intefacechild();
 		obj.display();
 		obj.print();
-		obj.show();
+		obj.show();*/
 	}
 	@Override
 	public void display() {
