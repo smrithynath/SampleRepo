@@ -2,7 +2,7 @@ package Exceptionhandling;
 
 public class Throwexample {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 int age = 19;
 if (age>18)
@@ -11,7 +11,7 @@ if (age>18)
 }
 else
 {
-	throw new ArithmaticException ("age under 18!!");
+	throw new Exception ("age under 18!!");
 }
 	}
 
